@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['.github/workflows/refresh-feed.yml']
+    paths: ['.github/workflows/refresh-feed.yml', 'content-engine/*.py', 'tests/**']
 permissions:
   contents: write
 concurrency:
@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install dependencies
-        run: python -m pip install requests Pillow
+        run: python -m pip install requests==2.34.2 Pillow==12.3.0
       - name: Run offline tests
         run: python -m unittest discover -s tests -v
       - name: Attempt one new story
