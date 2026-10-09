@@ -178,7 +178,7 @@ def build_story(session,topic):
     category=topic['category']; slug=safe_slug(title)
     src=f'https://da.wikipedia.org/w/index.php?oldid={p["lastrevid"]}' if p.get('lastrevid') else 'https://da.wikipedia.org/wiki/'+quote(title.replace(' ','_'))
     short_headings=['Det første du skal vide','Sådan hænger det sammen','Det afgørende princip','Det overraskende perspektiv','Det sidste du bør huske']
-    slides=[{'title':name,'body':slide_bodies[i][:260]} for i,name in enumerate(short_headings)]
+    slides=[{'title':name,'body':slide_bodies[i]} for i,name in enumerate(short_headings)]
     section_titles=['Den store sammenhæng','Et nærmere kig','Mere end man tror','Hvad kilderne fortæller','Det større perspektiv']
     sections=[{'title':section_titles[i],'body':ch} for i,ch in enumerate(chapter_bodies)]
     article=[' '.join(sentences[:3])[:800]]
@@ -308,11 +308,12 @@ def run(limit,seed_today=False):
         output.write_text(json.dumps(feed,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     else:print('No new articles; feed unchanged.')
     # Keep the free static site bounded; delete images of expired cards.
-    used={Path(story.get('image','')).name for story in feed['stories']}
-    used.update(Path(slide.get('image','')).name for story in feed['stories'] for slide in story.get('slides',[]))
-    used.update(Path(slide.get('image','')).name for story in (feed.get('starterVisuals') or {}).values() for slide in story.get('slides',[]))
+    used={Path(story.get(key,'')).name for story in feed['stories'] for key in ('image','imageSmall')}
+    used.update(Path(slide.get(key,'')).name for story in feed['stories'] for slide in story.get('slides',[]) for key in ('image','imageSmall'))
+    used.update(Path(slide.get(key,'')).name for story in (feed.get('starterVisuals') or {}).values() for slide in story.get('slides',[]) for key in ('image','imageSmall'))
     for old in IMAGES.glob('*.webp'):
         if old.name not in used: old.unlink(missing_ok=True)
+    IMAGES.mkdir(parents=True,exist_ok=True)
     for cat in ACCENTS:
         name=IMAGES/('abstract-'+cat.lower()+'.svg');name.write_text(make_svg(cat),encoding='utf-8')
     print(f'Feed: {len(feed["stories"])} articles. {count} added.')
