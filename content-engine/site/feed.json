@@ -1,1 +1,110 @@
-{"updated":"2026-10-09","stories":[]}
+{
+  "updated": "2026-10-09T20:35:56.191112+00:00",
+  "stories": [
+    {
+      "id": "wiki-tornado",
+      "title": "Tornado",
+      "kicker": "JORDEN",
+      "subtitle": "Tornadoer kommer i mange former og størrelser, og de er ofte (men ikke altid) synlige i form af en kondenstragt, der stammer fra bunden af en cumulonimbussky, med en sky af roterende affald og støv under sig.",
+      "category": "Jorden",
+      "minutes": "7–9 min",
+      "accent": "#ff9e7e",
+      "image": "images/tornado.webp",
+      "imageSmall": "images/tornado-small.webp",
+      "slides": [
+        {
+          "title": "Det første du skal vide",
+          "body": "Tornadoer kommer i mange former og størrelser, og de er ofte (men ikke altid) synlige i form af en kondenstragt, der stammer fra bunden af en cumulonimbussky, med en sky af roterende affald og støv under sig.",
+          "image": "images/tornado-photo-1.webp",
+          "imageSmall": "images/tornado-photo-1-small.webp",
+          "image_credit": "Mazku at fi.wikipedia / Public domain / https://commons.wikimedia.org/wiki/File:Tornado_S%C3%A4rk%C3%A4nniemi.jpg"
+        },
+        {
+          "title": "Sådan hænger det sammen",
+          "body": "De fleste tornadoer har vindhastigheder på under 180 km/t, er omkring 80 meter i diameter og rejser flere kilometer, før de forsvinder.",
+          "image": "images/tornado-photo-2.webp",
+          "imageSmall": "images/tornado-photo-2-small.webp",
+          "image_credit": "Brianga ( talk ) / CC BY-SA 3.0 / https://commons.wikimedia.org/wiki/File:2008_Tornado_Damage_to_Westin_Peachtree_Plaza_Hotel.jpg"
+        },
+        {
+          "title": "Det afgørende princip",
+          "body": "De mest ekstreme tornadoer kan opnå vindhastigheder på mere end 480 km/t, er mere end 3 kilometer i diameter og bliver på jorden i mere end 100 km.",
+          "image": "images/tornado-photo-3.webp",
+          "imageSmall": "images/tornado-photo-3-small.webp",
+          "image_credit": "Tomwsulcer / CC0 / https://commons.wikimedia.org/wiki/File:View_of_handyman_drip_art_wall_painting_closeup_on_section.JPG"
+        },
+        {
+          "title": "Det overraskende perspektiv",
+          "body": "Det sted hvor der dannes flest tornadoer i gennemsnit pr. år, er i det midtvestlige USA på The Great Plains.",
+          "image": "images/tornado-photo-4.webp",
+          "imageSmall": "images/tornado-photo-4-small.webp",
+          "image_credit": "Ultra7 / Public domain / https://commons.wikimedia.org/wiki/File:60163_Tornado_connecting_rods.jpg"
+        },
+        {
+          "title": "Det sidste du bør huske",
+          "body": "El Reno tornadoen medførte skader, der kategoriserede den som en EF3 tornado.",
+          "image": "images/tornado-photo-5.webp",
+          "imageSmall": "images/tornado-photo-5-small.webp",
+          "image_credit": "NASA Earth Observatory images by Wanmei Liang, using Landsat data from the U.S. Geological Survey. S / Public domain / https://commons.wikimedia.org/wiki/File:A_Tornado%E2%80%99s_Mark_on_Kentucky_(154410).jpg"
+        }
+      ],
+      "article": [
+        "Tornadoer kommer i mange former og størrelser, og de er ofte (men ikke altid) synlige i form af en kondenstragt, der stammer fra bunden af en cumulonimbussky, med en sky af roterende affald og støv under sig. De fleste tornadoer har vindhastigheder på under 180 km/t, er omkring 80 meter i diameter og rejser flere kilometer, før de forsvinder. De mest ekstreme tornadoer kan opnå vindhastigheder på mere end 480 km/t, er mere end 3 kilometer i diameter og bliver på jorden i mere end 100 km."
+      ],
+      "facts": [
+        "Større tornadoer er i stand til at anrette store ødelæggelser på sin vej.",
+        "USA ser op til 1200 - 1224 tornadoer årligt.",
+        "Tornadoerne forekommer her mest i staterne Nebraska, Oklahoma, Kansas og Texas.",
+        "Disse fire stater udgør også den såkaldte \"Tornado Alley\".",
+        "Højsæsonen for tornadoerne er fra marts til starten af juni, hvor maj er den måned, hvori der opstår flest.",
+        "En mindre erfaren stormspotter og 3 erfarne døde.",
+        "De opstår under forskellige forhold og opfører sig ikke på samme måde.",
+        "Skypumpen dannes nedefra og op, mens tornadoen dannes fra skyen og ned.",
+        "Skypumper dannes hvor luft kan rotere samtidigt med at den rejser sig, i forbindelse med at bygeskyer opstår.",
+        "Tornadoer dannes under roterende fuldt udviklede cumulonimbusskyer (bygeskyer), hvor de fra underkanten af skyen, i det som kaldes sky-vægen, strækker sig fra skyen og ned til jorden."
+      ],
+      "didYouKnow": [
+        "Den største tornado registreret er El Reno tornadoen, der den 31 Maj 2013 i 40 minutter forårsagede død og ødelæggelse i en bredde på op til 4160 meter, med lokale vindhastigheder på over 474 km/t målt med mobile radarer, her iblandt \"Doppler On Wheels\".",
+        "De 3 erfarne var del af projektet \"Twistex\". == Etymologi == Ordet tornado kommer fra det spanske tronada (betyder 'tordenvejr', perfektum participium af tronar 'at tordne', der igen stammer fra det latinske tonāre 'at tordne'). == En tornado sammenlignet med andre hvirvelvinde == Tornado, skypumpe, og støvhvirvel skal ikke forveksles, selvom alle tre fænomener har en roterende, synlig luftsøjle.",
+        "Det meget lave lufttryk inde i tornadoen skaber ekstremt kraftige vinde, og den 3. maj 1999 i Oklahoma City, i forbindelse med en yderst forbløffende tornado, registrerede en radar vindhastigheder på helt op til 512 km/t.",
+        "Før hen brugte man ofte den gamle Fujita skala & TORRO-tornadoskalaen da Europa har nogle andre standarder for byggeri og anlæg end USA. === Internationale Fujita skala === I Europa bruger man den Internationale Fujita skala (kort IF-skala), som blev udgivet den 1 august, 2023.",
+        "EF0 er små skader og EF5 er voldsomme skader. (EF = Enhanced Fujita) Det betyder at en tornado med vinde på 300 km/t der bevæger sig over en flad slette, kan blive kategoriseres som EF0 hvor imod en tornado med 300 km/t vinde der lægger sin rute gennem en by kan blive kategoriseret som EF4.",
+        "Da den første og anden udgave af IF skalaen blev udgivet i 2018 og i maj 2023, brugte man dem. == Tornadoer i Danmark == Skypumper og tornadoer er et relativt sjældent observeret vejrfænomen i Danmark, men der optræder sandsynligvis skypumper hvert år.",
+        "Der var særligt mange beretninger om skypumper i Danmark i somrene 1999 og 2002. === Liste over kraftige tornadoer i Danmark === Kraftige tornadoer defineres som en tornado med en intensitet på F2/EF2/IF2 eller kraftigere.",
+        "2019, eb.dk: Supercelle kan ramme Danmark: Risiko for tornadoer tornadoproject.com Arkiveret 7. maj 2009 hos Wayback Machine Welcome to the Tornado Debris Project Home Page 13.09.2010, National Geographic: Oplev sjælden ild-tornado",
+        "Den første og anden udgave af IF-skalaen blev udgivet i 2018 og i maj 2023. === Forbedret Fujita skala === Tornadoers styrke bliver betegnet efter den forbedrede Fujita tornadoskala ud fra hvilke skader vinden medfører.",
+        "Danske tornadoer eller skypumper er som regel EF0 eller EF1. === Fujitas tornadoskala (anvendt før 2007) === Til formål for studier, såsom \"Tornado Klimatologi\", så bliver Fujita skalaen opdelt i grupper."
+      ],
+      "articleSections": [
+        {
+          "title": "Den store sammenhæng",
+          "body": "I USA hedder skypumpen en landspout eller waterspout, alt efter om den opstår over hhv land eller vand. En skypumpe er svær at se med en radar, da den ikke stammer fra en mesocyklon (supercelle, stor bygesky). Orkaner er også stærke vinde, men de er langsommere end de voldsomste tornadoer, og er langt større og længerevarende."
+        },
+        {
+          "title": "Et nærmere kig",
+          "body": "Der er tale om to vidt forskellige vejrsystemer. Dog kan det ske, at der i det lavtryk som orkanen består af, kan dannes kraftige skypumper eller sågar tornadoer. Orkaner kan ses fra rummet via et satellitbillede, mens tornadoer ikke kan ses fra den afstand."
+        },
+        {
+          "title": "Mere end man tror",
+          "body": "Dels er tornadoer små i denne sammenhæng og dels skygger toppen af skyen for udsigten ovenfra. == Karakterisering == Tornadoer er kendetegnet ved de voldsomme vinde, de genererer. Tornadoer kan være på jorden lige fra få sekunder til flere timer. Disse lokale vejrfænomener ved man endnu ikke nok om til at meteorologer præcist kan forudsige hvor de vil opstå."
+        },
+        {
+          "title": "Hvad kilderne fortæller",
+          "body": "Dette har stor betydning særligt i \"Tornado Alley\", hvor der findes et varslingscenter i Oklahoma City, \"Storm Prediction Center/National Weather Service\", hvorfra man observerer skyernes rotation og gang - og udløser varslingssirener, hvis der er kraftig aktivitet i en tordensky. Tornadoalarm (sirene, radio og tv melding) udløses gennemsnitligt 13 minutter før tornadoen når jorden. En sky der danner tornadoer er en cumulonimbussky (bygesky) og den kan blive op til 15.000 meter høj og dermed nå helt op til tropopausen."
+        },
+        {
+          "title": "Det større perspektiv",
+          "body": "En tornado kan have mange farver, alt efter hvad den suger op i sin hvirvel, og hvordan den rammes af sollyset. Hvis en tornado er omringet af kraftig regn, kan den være stort set umulig at se, så hvert år er der tilfælde, hvor personer havner i en tornado, uden at vide det før de rammes af de voldsomme vinde. En tornados diameter er typisk omkring 50 meter, men den kan blive flere kilometer bred."
+        }
+      ],
+      "source": {
+        "title": "Dansk Wikipedia, kilde og bidragydere",
+        "url": "https://da.wikipedia.org/w/index.php?oldid=12146341",
+        "license": "Bearbejdede tekstuddrag fra Wikipedia, CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "image_credit": "Daphne Zaras · Public domain · https://commons.wikimedia.org/wiki/File:A_tornado_near_Anadarko,_Oklahoma,_on_May_3,_1999.jpg",
+      "illustration_credit": "Fem selvstændige Commons-billeder er udvalgt og beskåret til KURIO. Fotokrediteringer og licenser fremgår nedenfor.",
+      "created": "2026-10-09"
+    }
+  ]
+}
