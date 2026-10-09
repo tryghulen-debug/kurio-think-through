@@ -1,0 +1,43 @@
+name: KURIO daily content
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/refresh-feed.yml']
+permissions:
+  contents: write
+concurrency:
+  group: kurio-daily-content
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install requests Pillow
+      - name: Run offline tests
+        run: python -m unittest discover -s tests -v
+      - name: Attempt one new story
+        id: generate
+        env:
+          WIKIMEDIA_USER_AGENT: ${{ vars.WIKIMEDIA_USER_AGENT }}
+        run: python content-engine/update_feed.py --limit 1
+      - name: Save feed and daily attempt guard
+        if: always() && steps.generate.outcome != 'skipped'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content-engine/site
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+            exit 0
+          fi
+          git commit -m "Update KURIO feed and daily attempt guard"
+          git push origin HEAD:main
