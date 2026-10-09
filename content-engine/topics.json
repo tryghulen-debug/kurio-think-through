@@ -1,0 +1,782 @@
+[
+  {
+    "title": "Solformørkelse",
+    "category": "Universet"
+  },
+  {
+    "title": "Søhest",
+    "category": "Naturen"
+  },
+  {
+    "title": "Mars-rover",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Hjertet",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Trykpresse",
+    "category": "Historien"
+  },
+  {
+    "title": "Vandets kredsløb",
+    "category": "Jorden"
+  },
+  {
+    "title": "Måneformørkelse",
+    "category": "Universet"
+  },
+  {
+    "title": "Blæksprutte",
+    "category": "Naturen"
+  },
+  {
+    "title": "Damplokomotiv",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Øjet",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Antikkens Grækenland",
+    "category": "Historien"
+  },
+  {
+    "title": "Jordskælv",
+    "category": "Jorden"
+  },
+  {
+    "title": "Mars (planet)",
+    "category": "Universet"
+  },
+  {
+    "title": "Kolibri",
+    "category": "Naturen"
+  },
+  {
+    "title": "Cykel",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Immunsystem",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Den kinesiske mur",
+    "category": "Historien"
+  },
+  {
+    "title": "Tsunami",
+    "category": "Jorden"
+  },
+  {
+    "title": "Saturn (planet)",
+    "category": "Universet"
+  },
+  {
+    "title": "Koralrev",
+    "category": "Naturen"
+  },
+  {
+    "title": "Transistor",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Søvn",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Pyramiderne i Egypten",
+    "category": "Historien"
+  },
+  {
+    "title": "Gletsjer",
+    "category": "Jorden"
+  },
+  {
+    "title": "Mælkevejen",
+    "category": "Universet"
+  },
+  {
+    "title": "Svamp (organisme)",
+    "category": "Naturen"
+  },
+  {
+    "title": "Mikroskop",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Hjernen",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Silkevejen",
+    "category": "Historien"
+  },
+  {
+    "title": "Pladetektonik",
+    "category": "Jorden"
+  },
+  {
+    "title": "Tyngdekraft",
+    "category": "Universet"
+  },
+  {
+    "title": "Myre",
+    "category": "Naturen"
+  },
+  {
+    "title": "Røntgenstråling",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Nervecelle",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Leonardo da Vinci",
+    "category": "Historien"
+  },
+  {
+    "title": "Regnbue",
+    "category": "Jorden"
+  },
+  {
+    "title": "Solsystemet",
+    "category": "Universet"
+  },
+  {
+    "title": "Regnskov",
+    "category": "Naturen"
+  },
+  {
+    "title": "Kompas",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Hukommelse",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Charles Darwin",
+    "category": "Historien"
+  },
+  {
+    "title": "Vulkan",
+    "category": "Jorden"
+  },
+  {
+    "title": "Sort hul",
+    "category": "Universet"
+  },
+  {
+    "title": "Fotosyntese",
+    "category": "Naturen"
+  },
+  {
+    "title": "Glas",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Drøm",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Romerriget",
+    "category": "Historien"
+  },
+  {
+    "title": "Jordens indre",
+    "category": "Jorden"
+  },
+  {
+    "title": "Neutronstjerne",
+    "category": "Universet"
+  },
+  {
+    "title": "Evolution",
+    "category": "Naturen"
+  },
+  {
+    "title": "Elektricitet",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Læring",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Vikingetiden",
+    "category": "Historien"
+  },
+  {
+    "title": "Jordens atmosfære",
+    "category": "Jorden"
+  },
+  {
+    "title": "Supernova",
+    "category": "Universet"
+  },
+  {
+    "title": "Dinosaur",
+    "category": "Naturen"
+  },
+  {
+    "title": "Kunstig intelligens",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Sanser",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Renæssancen",
+    "category": "Historien"
+  },
+  {
+    "title": "Magnetfelt",
+    "category": "Jorden"
+  },
+  {
+    "title": "Komet",
+    "category": "Universet"
+  },
+  {
+    "title": "Tyrannosaurus",
+    "category": "Naturen"
+  },
+  {
+    "title": "Robot",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Synssans",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Den industrielle revolution",
+    "category": "Historien"
+  },
+  {
+    "title": "Nordlys",
+    "category": "Jorden"
+  },
+  {
+    "title": "Asteroide",
+    "category": "Universet"
+  },
+  {
+    "title": "Blåhval",
+    "category": "Naturen"
+  },
+  {
+    "title": "Dampmaskine",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Hørelse",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Antikkens Egypten",
+    "category": "Historien"
+  },
+  {
+    "title": "Tornado",
+    "category": "Jorden"
+  },
+  {
+    "title": "Jupiter (planet)",
+    "category": "Universet"
+  },
+  {
+    "title": "Spækhugger",
+    "category": "Naturen"
+  },
+  {
+    "title": "Elmotor",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Lugt",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Romersk akvædukt",
+    "category": "Historien"
+  },
+  {
+    "title": "Orkan",
+    "category": "Jorden"
+  },
+  {
+    "title": "Venus (planet)",
+    "category": "Universet"
+  },
+  {
+    "title": "Delfin",
+    "category": "Naturen"
+  },
+  {
+    "title": "Laseren",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Smagssans",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Stonehenge",
+    "category": "Historien"
+  },
+  {
+    "title": "Tordenvejr",
+    "category": "Jorden"
+  },
+  {
+    "title": "Merkur (planet)",
+    "category": "Universet"
+  },
+  {
+    "title": "Koraller",
+    "category": "Naturen"
+  },
+  {
+    "title": "Radar",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Hjerte",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Mayakulturen",
+    "category": "Historien"
+  },
+  {
+    "title": "Regn",
+    "category": "Jorden"
+  },
+  {
+    "title": "Uranus (planet)",
+    "category": "Universet"
+  },
+  {
+    "title": "Vandmand",
+    "category": "Naturen"
+  },
+  {
+    "title": "Radio",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Blodkredsløb",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Aztekerriget",
+    "category": "Historien"
+  },
+  {
+    "title": "Sky",
+    "category": "Jorden"
+  },
+  {
+    "title": "Neptun (planet)",
+    "category": "Universet"
+  },
+  {
+    "title": "Gople",
+    "category": "Naturen"
+  },
+  {
+    "title": "Internet",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Lunge",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Middelalderen",
+    "category": "Historien"
+  },
+  {
+    "title": "Klima",
+    "category": "Jorden"
+  },
+  {
+    "title": "Månen",
+    "category": "Universet"
+  },
+  {
+    "title": "Honningbi",
+    "category": "Naturen"
+  },
+  {
+    "title": "Computer",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Fordøjelsessystem",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Apollo 11",
+    "category": "Historien"
+  },
+  {
+    "title": "Klimaforandringer",
+    "category": "Jorden"
+  },
+  {
+    "title": "Solen",
+    "category": "Universet"
+  },
+  {
+    "title": "Sommerfugl",
+    "category": "Naturen"
+  },
+  {
+    "title": "Satellit",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Menneskets skelet",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Månelandingen",
+    "category": "Historien"
+  },
+  {
+    "title": "Jordens historie",
+    "category": "Jorden"
+  },
+  {
+    "title": "Stjerne",
+    "category": "Universet"
+  },
+  {
+    "title": "Myresamfund",
+    "category": "Naturen"
+  },
+  {
+    "title": "Rumfart",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Menneskets immunsystem",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Titanic",
+    "category": "Historien"
+  },
+  {
+    "title": "Kontinentaldrift",
+    "category": "Jorden"
+  },
+  {
+    "title": "Rødforskydning",
+    "category": "Universet"
+  },
+  {
+    "title": "Edderkop",
+    "category": "Naturen"
+  },
+  {
+    "title": "Flyvemaskine",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Menneskets evolution",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Antikken",
+    "category": "Historien"
+  },
+  {
+    "title": "Vulkansk aske",
+    "category": "Jorden"
+  },
+  {
+    "title": "Big Bang",
+    "category": "Universet"
+  },
+  {
+    "title": "Flagermus",
+    "category": "Naturen"
+  },
+  {
+    "title": "Helikopter",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Genetik",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Bogtryk",
+    "category": "Historien"
+  },
+  {
+    "title": "Lyn",
+    "category": "Jorden"
+  },
+  {
+    "title": "Kosmologi",
+    "category": "Universet"
+  },
+  {
+    "title": "Kameleon",
+    "category": "Naturen"
+  },
+  {
+    "title": "Dieselmotor",
+    "category": "Teknologi"
+  },
+  {
+    "title": "DNA",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Nikola Tesla",
+    "category": "Historien"
+  },
+  {
+    "title": "Havstrøm",
+    "category": "Jorden"
+  },
+  {
+    "title": "Galakse",
+    "category": "Universet"
+  },
+  {
+    "title": "Axolotl",
+    "category": "Naturen"
+  },
+  {
+    "title": "Forbrændingsmotor",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Kromosom",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Marie Curie",
+    "category": "Historien"
+  },
+  {
+    "title": "El Niño",
+    "category": "Jorden"
+  },
+  {
+    "title": "Andromedagalaksen",
+    "category": "Universet"
+  },
+  {
+    "title": "Snegle",
+    "category": "Naturen"
+  },
+  {
+    "title": "Vandkraft",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Protein",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Albert Einstein",
+    "category": "Historien"
+  },
+  {
+    "title": "Glaciale perioder",
+    "category": "Jorden"
+  },
+  {
+    "title": "Hubble-rumteleskopet",
+    "category": "Universet"
+  },
+  {
+    "title": "Haj",
+    "category": "Naturen"
+  },
+  {
+    "title": "Vindmølle",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Celle (biologi)",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Isaac Newton",
+    "category": "Historien"
+  },
+  {
+    "title": "Fossil",
+    "category": "Jorden"
+  },
+  {
+    "title": "James Webb Space Telescope",
+    "category": "Universet"
+  },
+  {
+    "title": "Havskildpadde",
+    "category": "Naturen"
+  },
+  {
+    "title": "Solcelle",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Mikrobiom",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Galileo Galilei",
+    "category": "Historien"
+  },
+  {
+    "title": "Mineral",
+    "category": "Jorden"
+  },
+  {
+    "title": "Exoplanet",
+    "category": "Universet"
+  },
+  {
+    "title": "Søstjerne",
+    "category": "Naturen"
+  },
+  {
+    "title": "Batteri",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Døgnrytme",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Arkæologi",
+    "category": "Historien"
+  },
+  {
+    "title": "Krystal",
+    "category": "Jorden"
+  },
+  {
+    "title": "Rummet",
+    "category": "Universet"
+  },
+  {
+    "title": "Skov",
+    "category": "Naturen"
+  },
+  {
+    "title": "Litium-ion-batteri",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Menneskets øje",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Den franske revolution",
+    "category": "Historien"
+  },
+  {
+    "title": "Krystalstruktur",
+    "category": "Jorden"
+  },
+  {
+    "title": "Pluto",
+    "category": "Universet"
+  },
+  {
+    "title": "Mikroorganisme",
+    "category": "Naturen"
+  },
+  {
+    "title": "Fotografi",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Følelser",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Kinesisk opfindelseshistorie",
+    "category": "Historien"
+  },
+  {
+    "title": "Geologi",
+    "category": "Jorden"
+  },
+  {
+    "title": "Tidevand",
+    "category": "Universet"
+  },
+  {
+    "title": "Symbiose",
+    "category": "Naturen"
+  },
+  {
+    "title": "Telefon",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Refleks",
+    "category": "Mennesket"
+  },
+  {
+    "title": "Geyser",
+    "category": "Jorden"
+  },
+  {
+    "title": "Solvind",
+    "category": "Universet"
+  },
+  {
+    "title": "Bioluminescens",
+    "category": "Naturen"
+  },
+  {
+    "title": "Kamera",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Gravitation",
+    "category": "Jorden"
+  },
+  {
+    "title": "Stjernedannelse",
+    "category": "Universet"
+  },
+  {
+    "title": "Kæmpepanda",
+    "category": "Naturen"
+  },
+  {
+    "title": "3D-print",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Teleskop",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Lynlås",
+    "category": "Teknologi"
+  },
+  {
+    "title": "Kryptering",
+    "category": "Teknologi"
+  }
+]
