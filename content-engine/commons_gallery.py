@@ -14,7 +14,7 @@ from PIL import Image,ImageOps,ImageStat
 API='https://commons.wikimedia.org/w/api.php'
 LICENSE=re.compile(r'^(?:CC\s*BY(?:-SA)?(?:\s|$)|CC0(?:\s|$)|Public domain(?:\s|$)|PD-)', re.I)
 FILE_TYPES=re.compile(r'\.(?:jpg|jpeg|png|webp)$',re.I)
-BAD_WORDS=re.compile(r'\b(?:logo|flag|icon|seal|map|coat of arms|cover|cartoon|stamp|portrait|text|screenshot|poster|diagram|drawing|painting|locomotive|connecting rods|train|aircraft|fighter|handyman|ride|roller coaster)\b', re.I)
+BAD_WORDS=re.compile(r'\b(?:logo|flag|icon|seal|map|coat of arms|cover|cartoon|stamp|portrait|text|screenshot|poster|diagram|drawing|painting|handyman|roller coaster)\b', re.I)
 
 STORY_VISUALS={
  'zipper':['zipper metal teeth macro','zipper slider close up','zipper teeth detail fabric','zipper manufacturing sewing','zipper closed jacket detail'],
