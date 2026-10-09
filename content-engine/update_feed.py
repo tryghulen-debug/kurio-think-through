@@ -61,7 +61,7 @@ def split_text(extract):
     fingerprints = []
     for sentence in parts:
         line = re.sub(r'\s+', ' ', sentence).strip()
-        if not 42 <= len(line) <= 470:
+        if not 42 <= len(line) <= 470 or '==' in line:
             continue
         if re.search(r'(?:se også|eksterne links|kilder og noter|ISBN|https?://|redigér|\[\d+\])',line,re.I):
             continue
@@ -168,7 +168,11 @@ def fetch_verified_photo(session,pageimage,slug):
 def build_story(session,topic):
     p=get_page(session,topic['title'])
     if 'missing' in p or 'invalid' in p:return None
-    extract=re.sub(r'\s+',' ',p.get('extract','')).strip()[:28000]
+    raw=p.get('extract','')
+    # Exclude bibliography/link appendices before flattening Wikipedia sections.
+    raw=re.split(r'(?im)^\s*={2,}\s*(?:se også|eksterne henvisninger|eksterne links|referencer|kilder(?: og noter)?|noter|litteratur)\s*={2,}',raw,maxsplit=1)[0]
+    raw=re.sub(r'(?m)^\s*={2,}[^\n]*?={2,}\s*$', '\n', raw)
+    extract=re.sub(r'\s+',' ',raw).strip()[:28000]
     sentences=split_text(extract)
     if len(extract)<2800:return None
     selected=select_editorial_content(sentences)
