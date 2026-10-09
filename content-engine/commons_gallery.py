@@ -14,7 +14,7 @@ from PIL import Image,ImageOps,ImageStat
 API='https://commons.wikimedia.org/w/api.php'
 LICENSE=re.compile(r'^(?:CC\s*BY(?:-SA)?(?:\s|$)|CC0(?:\s|$)|Public domain(?:\s|$)|PD-)', re.I)
 FILE_TYPES=re.compile(r'\.(?:jpg|jpeg|png|webp)$',re.I)
-BAD_WORDS=re.compile(r'\b(?:logo|flag|icon|seal|map|coat of arms|cover|cartoon|stamp|portrait|text|screenshot|poster|diagram|drawing)\b', re.I)
+BAD_WORDS=re.compile(r'\b(?:logo|flag|icon|seal|map|coat of arms|cover|cartoon|stamp|portrait|text|screenshot|poster|diagram|drawing|painting|locomotive|connecting rods|train|aircraft|fighter|handyman|ride|roller coaster)\b', re.I)
 
 STORY_VISUALS={
  'zipper':['zipper metal teeth macro','zipper slider close up','zipper teeth detail fabric','zipper manufacturing sewing','zipper closed jacket detail'],
@@ -88,8 +88,28 @@ def get_picture(session,info):
         return image
     except (requests.RequestException,OSError,ValueError):return None
 
+
+def article_files(session, title):
+    """Only accept illustrations actually linked from this Wikipedia article.
+
+    Search matches alone are insufficient evidence of subject relevance.
+    """
+    try:
+        res=session.get('https://da.wikipedia.org/w/api.php', params={
+            'action':'query','format':'json','redirects':1,
+            'prop':'images','imlimit':50,'titles':title}, timeout=20)
+        res.raise_for_status()
+        pages=res.json().get('query',{}).get('pages',{})
+        return {entry['title'].replace('Fil:', 'File:', 1)
+                for page in pages.values() for entry in page.get('images',[])
+                if entry.get('title')}
+    except (requests.RequestException,ValueError,KeyError):
+        return set()
+
 def gather_gallery(session,title,category,slug,image_dir,limit_queries=5):
     image_dir=Path(image_dir);image_dir.mkdir(parents=True,exist_ok=True)
+    allowed=article_files(session,title)
+    if not allowed:return None
     choices=[];seen=set();hashes=[];created=[]
     # Wikimedia is a free public resource, not an unlimited private image API.
     # Hard-stop downloads per story rather than hammering the service.
@@ -100,7 +120,7 @@ def gather_gallery(session,title,category,slug,image_dir,limit_queries=5):
         selected=False
         for candidate in candidates(session,search):
             if downloads>=max_downloads:break
-            if not eligible(candidate):continue
+            if candidate.get('title') not in allowed or not eligible(candidate):continue
             key=candidate.get('title','')
             if key in seen:continue
             info=candidate['imageinfo'][0]
